@@ -37,7 +37,7 @@ template node['webservice']['upstart']  do
   group "root"
   mode "0644"
   action :create_if_missing
-  notifies :restart, resources(:service => node['webservice']['name'])
+  notifies :restart, "service[#{node['webservice']['name']}]"
 end
 
 service node['webservice']['name'] do

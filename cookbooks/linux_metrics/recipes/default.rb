@@ -61,7 +61,7 @@ template node['linux_metrics']['upstart']  do
   owner "root"
   group "root"
   mode "0644"
-  notifies :restart, resources(:service => node['linux_metrics']['name'])
+  notifies :restart, "service[#{node['linux_metrics']['name']}]"
 end
 
 service node['linux_metrics']['name'] do
