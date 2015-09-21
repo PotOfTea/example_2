@@ -18,7 +18,6 @@ Vagrant.configure(2) do |config|
 	  end
 	  dashboard_config.vm.provision "chef_solo" do |chef|
 	  	chef.version = "12.4.1"
-		chef.log_level = :debug
 		chef.roles_path = "roles"
     	chef.add_role("config")
     	chef.add_recipe "apt"
@@ -37,7 +36,6 @@ Vagrant.configure(2) do |config|
 	  end
 	  wbservice_config.vm.provision "chef_solo" do |chef|
 	  	chef.version = "12.4.1"
-		chef.log_level = :debug
 		chef.roles_path = "roles"
     	chef.add_role("config")
     	chef.add_recipe "apt"
