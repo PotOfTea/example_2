@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+from linux_metrics import cpu_stat
+from linux_metrics import mem_stat
+from linux_metrics import disk_stat
+import time
+import json
+import urllib2
+import logging
+
+base_url = "http://<%= node[:dashboard][:ip] %>:<%= node[:dashboard][:port] %>"
+
+def to_mb(memory_usage):
+	data = memory_usage/1048576
+	return data
+
+def create_url(base_url, widget_id):
+	return base_url+"/widgets/"+widget_id
+
+def post_data(url, data):
+	req = urllib2.Request(url)
+	req.add_header('Content-Type', 'application/json')
+	response = urllib2.urlopen(req, json.dumps(data))
+
+def get_cpu_usage_data():
+	cpu_pcts = cpu_stat.cpu_percents(5)
+	cpu_usage = (100 - cpu_pcts['idle'])
+	logging.info('cpu utilization: %.2f%%' % cpu_usage)
+	return cpu_usage
+
+def get_disk_usage_data():
+	disk_usage = disk_stat.disk_busy('sda', sample_duration=1)
+	logging.info('disk busy: %s%%' % disk_usage)
+	return disk_usage
+
+def get_memory_usage_data():
+	memory_usage, memory_total, _, _, _, _ = mem_stat.mem_stats()
+	memory_usage = to_mb(memory_usage)
+	memory_total = to_mb(memory_total)
+
+	logging.info('memeroy utilization: %s/%s' % (memory_usage, memory_total))
+	return memory_usage
+
+def create_json_data(json_data):
+	data = {}
+	data["auth_token"] = "YOUR_AUTH_TOKEN"
+	data["value"] = json_data
+	return data
+
+def main():
+	logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+	while True:
+		time.sleep( 1 )
+		cpu_usage = get_cpu_usage_data()
+		memory_usage = get_memory_usage_data()
+		disk_usage  = get_disk_usage_data()	
+		disk_usage_data =  create_json_data(disk_usage)
+		cpu_usage_data = create_json_data(cpu_usage)
+		memory_usage_data = create_json_data(memory_usage)
+		try:
+			post_data(create_url(base_url, "cpu-usage-ws"), cpu_usage_data)
+			post_data(create_url(base_url, "disk-usage-ws"), disk_usage_data)
+			post_data(create_url(base_url, "memory-usage-ws"), memory_usage_data)
+		except:
+			logging.warning("Unable to post data")
+	        pass
+
+if __name__ == "__main__":
+    main()

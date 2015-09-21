@@ -1,0 +1,163 @@
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/common/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:5
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:8
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:9
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:10
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:23
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:25
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:26
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:32
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:38
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:39
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:40
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:41
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:49
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:51
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:60
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:74
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:75
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:76
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:80
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/recipes/default.rb:83
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:12
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:1
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:5
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:8
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:10
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:12
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:13
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:19
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:20
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:29
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:30
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:31
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:32
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:35
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:52
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:58
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:59
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:60
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:64
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/recipes/default.rb:67
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/templates/default/gather_stats.py.erb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/templates/default/linux_metrics.upstart.conf.erb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/templates/default/linux_metrics.upstart.conf.erb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-rproxy/recipes/default.rb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:1
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:5
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/attributes/default.rb:8
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:21
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:23
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:30
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:34
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/recipes/default.rb:35
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/templates/default/nginx_default.erb:9
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/templates/default/nginx_default.erb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/templates/default/nginx_default.erb:12
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/templates/default/nginx_default.erb:30
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx-ssl/templates/default/nginx_default.erb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:1
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:5
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/attributes/default.rb:8
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:20
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:22
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:29
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:32
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/recipes/default.rb:34
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx.erb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx.erb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx.erb:25
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx.erb:43
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx_rproxy.erb:19
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx_ssl.erb:9
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx_ssl.erb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx_ssl.erb:12
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/nginx/templates/default/nginx_ssl.erb:30
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:1
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:2
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:5
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:6
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:7
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:8
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:9
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:10
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/attributes/default.rb:12
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:1
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:3
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:10
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:11
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:16
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:17
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:18
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:19
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:28
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:33
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:34
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:35
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:39
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/recipes/default.rb:42
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/templates/default/webservice.upstart.conf.erb:4
+FC001: Use strings in preference to symbols to access node attributes: cookbooks/webservice/templates/default/webservice.upstart.conf.erb:11
+FC002: Avoid string interpolation where not required: cookbooks/dashboard/attributes/default.rb:8
+FC002: Avoid string interpolation where not required: cookbooks/dashboard/attributes/default.rb:9
+FC002: Avoid string interpolation where not required: cookbooks/dashboard/recipes/default.rb:60
+FC002: Avoid string interpolation where not required: cookbooks/linux_metrics/attributes/default.rb:2
+FC002: Avoid string interpolation where not required: cookbooks/linux_metrics/attributes/default.rb:3
+FC002: Avoid string interpolation where not required: cookbooks/linux_metrics/recipes/default.rb:35
+FC002: Avoid string interpolation where not required: cookbooks/nginx-ssl/attributes/default.rb:2
+FC002: Avoid string interpolation where not required: cookbooks/nginx-ssl/attributes/default.rb:3
+FC002: Avoid string interpolation where not required: cookbooks/nginx/attributes/default.rb:2
+FC002: Avoid string interpolation where not required: cookbooks/nginx/attributes/default.rb:3
+FC002: Avoid string interpolation where not required: cookbooks/nginx/attributes/default.rb:8
+FC002: Avoid string interpolation where not required: cookbooks/webservice/attributes/default.rb:2
+FC002: Avoid string interpolation where not required: cookbooks/webservice/attributes/default.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/common/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/common/metadata.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/dashboard/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/dashboard/metadata.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/linux_metrics/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/linux_metrics/metadata.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx-rproxy/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx-rproxy/metadata.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx-ssl/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx-ssl/metadata.rb:3
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx/metadata.rb:2
+FC008: Generated cookbook metadata needs updating: cookbooks/nginx/metadata.rb:3
+FC031: Cookbook without metadata file: cookbooks/apt/metadata.rb:1
+FC043: Prefer new notification syntax: cookbooks/dashboard/recipes/default.rb:67
+FC043: Prefer new notification syntax: cookbooks/dashboard/recipes/default.rb:74
+FC043: Prefer new notification syntax: cookbooks/linux_metrics/recipes/default.rb:52
+FC043: Prefer new notification syntax: cookbooks/linux_metrics/recipes/default.rb:58
+FC043: Prefer new notification syntax: cookbooks/webservice/recipes/default.rb:33
+FC045: Consider setting cookbook name in metadata: cookbooks/apt/metadata.rb:1

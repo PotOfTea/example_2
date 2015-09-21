@@ -1,0 +1,19 @@
+{
+  "name": "config",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "This role contain common data used accros cookbooks",
+  "default_attributes": {
+    "dashboard": {
+      "ip": "127.0.0.1",
+      "port": 9090,
+      "ip_ext": "10.0.15.10"
+    },
+    "webservice": {
+      "ip": "0.0.0.0",
+      "port": 8181,
+      "ip_ext": "10.0.15.11"
+    }
+
+  }
+}
