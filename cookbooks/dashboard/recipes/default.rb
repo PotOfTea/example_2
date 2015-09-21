@@ -77,6 +77,7 @@ template node['dashboard']['upstart']  do
   owner "root"
   group "root"
   mode "0644"
+  action :create_if_missing
   notifies :restart, "service[#{node['dashboard']['name']}]"
 end
 

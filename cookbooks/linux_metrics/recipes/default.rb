@@ -32,7 +32,8 @@ template node['linux_metrics']['file'] do
   owner node['linux_metrics']['user']
   group node['linux_metrics']['group']
   mode "0744"
-  not_if { ::File.exists?(node['linux_metrics']['full_path']) }
+  action :create_if_missing
+  #not_if { ::File.exists?(node['linux_metrics']['full_path']) }
 end
 
 file "install_python_dep" do
@@ -61,6 +62,7 @@ template node['linux_metrics']['upstart']  do
   owner "root"
   group "root"
   mode "0644"
+  action :create_if_missing
   notifies :restart, "service[#{node['linux_metrics']['name']}]"
 end
 
