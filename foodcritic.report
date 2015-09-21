@@ -1,4 +1,5 @@
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/common/attributes/default.rb:2
+
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:2
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:3
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/attributes/default.rb:4
@@ -29,6 +30,10 @@ FC001: Use strings in preference to symbols to access node attributes: cookbooks
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:4
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:11
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/dashboard/templates/default/dashboard.upstart.conf.erb:12
+
+
+
+
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:1
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:2
 FC001: Use strings in preference to symbols to access node attributes: cookbooks/linux_metrics/attributes/default.rb:3

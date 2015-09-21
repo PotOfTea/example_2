@@ -3,8 +3,8 @@ server {
     listen 443;
     server_name dashboard;
 
-    ssl_certificate           <%= node[:nginx][:crt_path] %>;
-    ssl_certificate_key       <%= node[:nginx][:crt_k_path] %>;
+    ssl_certificate           <%= node['nginx']['crt_path'] %>;
+    ssl_certificate_key       <%= node['nginx']['crt_k_path'] %>;
 
     ssl on;
     ssl_session_cache  builtin:1000  shared:SSL:10m;
@@ -22,7 +22,7 @@ server {
       proxy_set_header        X-Forwarded-Proto $scheme;
 
       # Fix the “It appears that your reverse proxy set up is broken" error.
-      proxy_pass          http://localhost:<%= node[:dashboard][:port] %>;
+      proxy_pass          http://localhost:<%= node['dashboard']['port'] %>;
       proxy_read_timeout  90; 
     }
 }
@@ -40,7 +40,7 @@ server {
       proxy_set_header        X-Forwarded-Proto $scheme;
 
       # Fix the "It appears that your reverse proxy set up is broken" error.
-      proxy_pass          http://<%= node[:webservice][:ip_ext] %>:<%= node[:webservice][:port] %>;
+      proxy_pass          http://<%= node['webservice']['ip_ext'] %>:<%= node['webservice']['port'] %>;
       proxy_read_timeout  90;
     }
   }

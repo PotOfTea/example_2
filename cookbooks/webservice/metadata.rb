@@ -1,6 +1,6 @@
 name             "webservice"
-maintainer       "Reinsi Steics"
-maintainer_email "streichs.reinis@gmail.com"
+maintainer       "rs"
+maintainer_email "rs"
 license          "All rights reserved"
 description      "Installs/Configures cookbook-webservice"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

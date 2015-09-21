@@ -8,7 +8,7 @@ import json
 import urllib2
 import logging
 
-base_url = "http://<%= node[:dashboard][:ip] %>:<%= node[:dashboard][:port] %>"
+base_url = "http://<%= node['dashboard']['ip'] %>:<%= node['dashboard']['port'] %>"
 
 def to_mb(memory_usage):
 	data = memory_usage/1048576

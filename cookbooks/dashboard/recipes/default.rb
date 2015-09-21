@@ -20,25 +20,25 @@ gem_package "bundler" do
   action :install
 end
 
-group node[:dashboard][:group]
+group node['dashboard']['group']
 
-user node[:dashboard][:user] do
-  group node[:dashboard][:group]
+user node['dashboard']['user'] do
+  group node['dashboard']['group']
   action :create
   system true
   shell "/bin/bash"
 end
 
-directory node[:dashboard][:dir] do
-  owner node[:dashboard][:user]
+directory node['dashboard']['dir'] do
+  owner node['dashboard']['user']
   mode "0755"
   action :create
 end
 
-cookbook_file node[:dashboard][:tmp_path] do
-  source node[:dashboard][:tar]
-  owner node[:dashboard][:user]
-  group node[:dashboard][:group]
+cookbook_file node['dashboard']['tmp_path'] do
+  source node['dashboard']['tar']
+  owner node['dashboard']['user']
+  group node['dashboard']['group']
   mode "0755"
   action :create_if_missing
 end
@@ -46,9 +46,9 @@ end
 bash "extract_dashboard" do
   cwd Chef::Config[:file_cache_path]
   code <<-EOH
-    tar zxf #{node[:dashboard][:tmp_path]} -C #{node[:dashboard][:dir]}
+    tar zxf #{node['dashboard']['tmp_path']} -C #{node['dashboard']['dir']}
   EOH
-  not_if { ::File.exists?("#{node[:dashboard][:dir]}/Gemfile") }
+  not_if { ::File.exists?("#{node['dashboard']['dir']}/Gemfile") }
 end
 
 file "install_dashboard_dep" do
@@ -57,7 +57,7 @@ file "install_dashboard_dep" do
 end
 
 bash "install_gem_denpendecies" do
-  cwd "#{node[:dashboard][:dir]}"
+  cwd node['dashboard']['dir']
   code <<-EOH
     bundle
   EOH
@@ -71,15 +71,15 @@ service "dashboard" do
 end
 
 
-template node[:dashboard][:upstart]  do
-  path node[:dashboard][:upstart_path]
-  source "#{node[:dashboard][:upstart]}.erb"
+template node['dashboard']['upstart']  do
+  path node['dashboard']['upstart_path']
+  source "#{node['dashboard']['upstart']}.erb"
   owner "root"
   group "root"
   mode "0644"
-  notifies :restart, resources(:service => node[:dashboard][:name])
+  notifies :restart, "service[#{node['dashboard']['name']}]"
 end
 
-service node[:dashboard][:name] do
+service node['dashboard']['name'] do
   action [:enable, :start]
 end

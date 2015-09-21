@@ -1,14 +1,14 @@
 #!upstart
 description "Linux metrics servver"
 
-env USER=<%= node[:linux_metrics][:user] %>
+env USER=<%= node['linux_metrics']['user'] %>
 start on filesystem or runlevel [2345]
 stop on shutdown
 
 
 script
 
-	exec sudo -u $USER sh -c "<%= node[:linux_metrics][:full_path] %>"
+	exec sudo -u $USER sh -c "<%= node['linux_metrics']['full_path'] %>"
 
 end script
 
